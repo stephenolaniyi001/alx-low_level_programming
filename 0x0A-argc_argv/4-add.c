@@ -29,8 +29,8 @@ int check_num(char *str)
 
 /**
  * main - Print the name of the program
- * @argc: count argument
- * @argv: arguments
+ * @argc: Count argument
+ * @argv: Arguments
  *
  * Return: Always 0 (Success)
  */
@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
 		if (check_num(argv[count]))
 
 		{
-			str_to_int = atoi(argv[count]); /*ATOI --> convert string to int*/
+			str_to_int = atoi(argv[count]); /*ATOI - -> convert string to int*/
 			sum += str_to_int;
 		}
 
